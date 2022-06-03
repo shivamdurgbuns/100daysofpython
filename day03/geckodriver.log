@@ -1,0 +1,393 @@
+1654254321057	geckodriver	INFO	Listening on 127.0.0.1:40345
+1654254321105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV8VQDY"
+1654254322046	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV8VQDY/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57597/devtools/browser/bbc0208d-fe64-46d9-82e6-679a9a7fa9d3
+1654254323566	Marionette	INFO	Listening on port 37249
+1654254323625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654254332113	Marionette	INFO	Stopped listening on port 37249
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654254332401	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654254524149	geckodriver	INFO	Listening on 127.0.0.1:44867
+1654254524207	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36003" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileprGEG9"
+1654254525186	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileprGEG9/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:36003/devtools/browser/6aacb60e-0a65-4dad-81e7-bd4fd7bf4d3a
+1654254526881	Marionette	INFO	Listening on port 40185
+1654254526928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654254535540	Marionette	INFO	Stopped listening on port 40185
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654254535840	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654254584146	geckodriver	INFO	Listening on 127.0.0.1:45405
+1654254584242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileirAT5e"
+1654254585186	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileirAT5e/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:40667/devtools/browser/eb6154f7-b292-4847-a912-dd11bec9ea0f
+1654254586960	Marionette	INFO	Listening on port 43085
+1654254587066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654254587076	Marionette	INFO	Stopped listening on port 43085
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.error: Policies.jsm: 
+  Download failed - ERROR_NETWORK_FAILURE - https://cdn.walkme.com/extension/Walkme_Extension.xpi
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654254587372	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654254680105	geckodriver	INFO	Listening on 127.0.0.1:50449
+1654254680156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9i0UUX"
+1654254681093	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9i0UUX/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:60245/devtools/browser/4693e216-e219-4661-9ca5-fd771881619c
+1654254682856	Marionette	INFO	Listening on port 42405
+1654254682877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://1cfa5c35-fd17-48f1-90ce-1fb71c810b85/config/consts.js, line 7: SecurityError: Permission denied to access property "WALKME_CONFIG_CONSTANTS" on cross-origin object
+1654254685296	Marionette	INFO	Stopped listening on port 42405
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000C,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654254687614	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654254912539	geckodriver	INFO	Listening on 127.0.0.1:54227
+1654254912608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1ArjLZ"
+1654254913604	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1ArjLZ/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:40131/devtools/browser/c5a7a2cb-2a3f-4847-bae1-6e604ab516e5
+1654254915379	Marionette	INFO	Listening on port 40863
+1654254915429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1654254935839	Marionette	INFO	Stopped listening on port 40863
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654254936119	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654255026320	geckodriver	INFO	Listening on 127.0.0.1:58765
+1654255026418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38405" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexDciud"
+1654255027354	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexDciud/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:38405/devtools/browser/43f3c9dd-cc2c-40ea-ba3f-a5bdd5d2c71e
+1654255028928	Marionette	INFO	Listening on port 38319
+1654255029038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654255053570	Marionette	INFO	Stopped listening on port 38319
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654255053851	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654255125965	geckodriver	INFO	Listening on 127.0.0.1:60145
+1654255126050	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOQVoLi"
+1654255126975	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOQVoLi/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:59735/devtools/browser/fcc6fd23-4e71-43e4-9347-d2c9acc14ac7
+1654255128562	Marionette	INFO	Listening on port 41561
+1654255128670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654255320006	geckodriver	INFO	Listening on 127.0.0.1:57105
+1654255320082	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecbVnii"
+1654255321004	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecbVnii/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:40583/devtools/browser/1f0a8fb1-aae2-4e2a-b43c-1c37d5dd3185
+1654255322450	Marionette	INFO	Listening on port 35337
+1654255322502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654255447681	Marionette	INFO	Stopped listening on port 35337
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654255447776	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654255494757	geckodriver	INFO	Listening on 127.0.0.1:33961
+1654255494806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGRBozL"
+1654255495768	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGRBozL/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:54547/devtools/browser/212b7f9c-56e8-4969-a9fa-71a7398af562
+1654255497324	Marionette	INFO	Listening on port 42099
+1654255497426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654255520267	Marionette	INFO	Stopped listening on port 42099
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654255520559	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654255614673	geckodriver	INFO	Listening on 127.0.0.1:34681
+1654255614723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIYi2Jn"
+1654255615646	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIYi2Jn/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:48487/devtools/browser/6f5612f8-8d7d-48db-aacb-079932d9042c
+1654255617154	Marionette	INFO	Listening on port 35377
+1654255617329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654255625668	Marionette	INFO	Stopped listening on port 35377
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654255625951	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654255654301	geckodriver	INFO	Listening on 127.0.0.1:33361
+1654255654350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58151" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileT0RKM3"
+1654255655287	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT0RKM3/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58151/devtools/browser/981d119a-73dd-4f45-95de-b9ee329412dd
+1654255656784	Marionette	INFO	Listening on port 44593
+1654255656913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdn.jsdelivr.net/npm/@docsearch/css@3 without a browsingContextID set
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 52ms)
+1654255819765	geckodriver	INFO	Listening on 127.0.0.1:47195
+1654255819814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0klxaY"
+1654255820751	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0klxaY/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:38355/devtools/browser/dc7d1105-c950-45c5-82df-ca958e268a0c
+1654255822261	Marionette	INFO	Listening on port 39977
+1654255822339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654255825704	Marionette	INFO	Stopped listening on port 39977
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000C,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654255826013	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654256010012	geckodriver	INFO	Listening on 127.0.0.1:51791
+1654256010062	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0hXZ2O"
+1654256011005	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0hXZ2O/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:47251/devtools/browser/c41d5f1d-a381-420b-ae8e-7e1fdf4f2351
+1654256012466	Marionette	INFO	Listening on port 36429
+1654256012483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654256014952	Marionette	INFO	Stopped listening on port 36429
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654256015270	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654256020509	Marionette	INFO	Stopped listening on port 44593
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654256020608	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654256043097	geckodriver	INFO	Listening on 127.0.0.1:58041
+1654256043146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMOHqka"
+1654256044093	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMOHqka/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:50253/devtools/browser/d3920401-99ac-4226-910c-8201b965c924
+1654256045681	Marionette	INFO	Listening on port 38817
+1654256045767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654256048686	Marionette	INFO	Stopped listening on port 38817
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654256049033	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1654256136727	geckodriver	INFO	Listening on 127.0.0.1:39619
+1654256136776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53537" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileu6SgR8"
+1654256137720	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu6SgR8/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:53537/devtools/browser/f57cc949-390c-4cf4-a76a-85775fc6ff1f
+1654256139245	Marionette	INFO	Listening on port 34675
+1654256139294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://cdn.jsdelivr.net/npm/@docsearch/css@3 without a browsingContextID set
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1654256284069	geckodriver	INFO	Listening on 127.0.0.1:41441
+1654256284119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38923" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileorB1FC"
+1654256285035	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileorB1FC/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:38923/devtools/browser/ea123d19-0c5f-423a-b10d-468cd7aedd42
+1654256286541	Marionette	INFO	Listening on port 43291
+1654256286688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654256289695	Marionette	INFO	Stopped listening on port 43291
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 480: TypeError: this.cloneScope is null
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1654256290005	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
