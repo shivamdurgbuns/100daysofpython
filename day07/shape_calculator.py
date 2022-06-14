@@ -34,9 +34,6 @@ class Rectangle:
     return self.get_area()//shape.get_area()
 
   def __str__(self):
-    if "Square" in str(self.__class__):
-      return f"Square(side={self.widht})"
-    else:
       return f"Rectangle(width={self.widht}, height={self.height})"
 
 class Square(Rectangle):
@@ -47,3 +44,6 @@ class Square(Rectangle):
   def set_side(self, side):
     self.widht = side
     self.height = side
+
+  def __str__(self):
+    return f"Square(side={self.widht})"
