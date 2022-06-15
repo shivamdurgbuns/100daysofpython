@@ -1,25 +1,16 @@
 # This entrypoint file to be used in development. Start by reading README.md
-import budget
-from budget import create_spend_chart
+import prob_calculator
 from unittest import main
 
-food = budget.Category("Food")
-food.deposit(1000, "initial deposit")
-food.withdraw(10.15, "groceries")
-food.withdraw(15.89, "restaurant and more food for dessert")
-print(food.get_balance())
-clothing = budget.Category("Clothing")
-food.transfer(50, clothing)
-clothing.withdraw(25.55)
-clothing.withdraw(100)
-auto = budget.Category("Auto")
-auto.deposit(1000, "initial deposit")
-auto.withdraw(15)
-
-print(food)
-print(clothing)
-
-print(create_spend_chart([food, clothing, auto]))
+prob_calculator.random.seed(95)
+hat = prob_calculator.Hat(blue=4, red=2, green=6)
+probability = prob_calculator.experiment(
+    hat=hat,
+    expected_balls={"blue": 2,
+                    "red": 1},
+    num_balls_drawn=4,
+    num_experiments=3000)
+print("Probability:", probability)
 
 # Run unit tests automatically
 main(module='test_module', exit=False)
