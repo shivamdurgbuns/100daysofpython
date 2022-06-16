@@ -3,6 +3,7 @@ class Category:
   def __init__(self, category_name):
     self.ledger = []
     self.category_name = category_name
+    self.total_withdrawed = 0
 
   def deposit(self, amount, description=''):
     self.ledger.append({
@@ -16,6 +17,7 @@ class Category:
         'amount': -abs(round(float(amount), 2)),
         'description': description
       })
+      self.total_withdrawed += amount
       return True
     else:
       return False
@@ -62,6 +64,43 @@ class Category:
     
     return h1+middle+last
 
+  def total_amount_withdrawed(self):
+    return self.total_withdrawed
+    
 
 def create_spend_chart(categories):
-  pass
+  categories_list = [x.category_name for x in categories]
+  h2 = f"Percentage spent by category\n"
+
+  withdraws = []
+  for _ in categories:
+    withdraws.append((
+      _.category_name,
+      _.total_amount_withdrawed()
+    ))
+  total = sum([x[1] for x in withdraws])
+  percentage = [int(str(x[1]/total)[2]) for x in withdraws]
+  
+  middle = ""
+  y_axis = ['100|', ' 90|', ' 80|', ' 70|', ' 60|', ' 50|', ' 40|' , ' 30|', ' 20|', ' 10|', '  0|']
+  dataframe = {
+    0: y_axis
+  }
+  for i,c in enumerate(categories):
+    cat_bar = [' o '] * (percentage[i]+1)
+    while len(cat_bar) < 11:
+      cat_bar.insert(0, '   ')
+    dataframe[i+1] = cat_bar
+
+  for i in zip(*dataframe.values()):
+    middle += ''.join(i) + ' \n'
+  
+  last = "    " + "---"*len(categories_list) + "-\n"
+  max_len = len(max(categories_list, key=len))
+  c = [ x.ljust(max_len) for x in categories_list ]
+  for name in zip(*c):
+    last += '     ' + '  '.join(name) + '  \n'
+
+  return (f"{h2}{middle}{last.rstrip()}  ")
+  
+  
